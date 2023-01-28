@@ -1,0 +1,30 @@
+.video-title{
+    font-family: 'Arial','Franklin Gothic Medium', 'Arial Narrow', sans-serif;
+    font-weight: bold;
+    font-size: larger;
+    width: 300px;
+    line-height: 25px;
+    margin-bottom: 5px;
+}
+.video-stats{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(112, 105, 105);
+    font-size: medium;
+    margin-top: 5px;
+} 
+.video-channel{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(112, 105, 105);
+}
+.video-description{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(112, 105, 105);
+    width: 300px;
+}
+.video-aads{
+    background-color: red;
+    padding: 12px;
+    color: azure;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}

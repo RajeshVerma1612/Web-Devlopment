@@ -1,0 +1,18 @@
+body{
+    background-color: rgb(34, 31, 31);
+}
+.top_part{
+    background-color: rgb(178, 77, 244);
+}
+.bottom_part{
+    background-color: aquamarine;
+}
+.bottom_left{
+    background-color: rgb(127, 9, 123);
+}
+.bottom_middle{
+    background-color: rgb(230, 45, 211);
+}
+.bottom_right{
+    background-color: rgb(152, 234, 111);
+}

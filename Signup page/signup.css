@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Cookie&display=swap');
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Cookie', cursive;
+}
+.outer_box {
+    height: 100vh;
+    width: 100vw;
+    background: linear-gradient(to top left, rgb(73, 199, 245), rgb(162, 225, 248));
+}
+
+.inner_box {
+    width: 350px;
+    height: 400px;
+    margin: 0 auto;
+    padding: 2rem;
+    border-radius: 2%;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    border: 2px solid white;
+    background:linear-gradient(to top left,rgba(240, 253, 255, 0.557),#ffffffa5);
+    backdrop-filter: blur(7px);
+    z-index: 2;
+}
+.inner_box:hover{
+    box-shadow: 2px 2px 5px  rgba(79, 79, 228, 0.811);
+}
+header h1 {
+    text-align: center;
+    font-size: 2.5rem; ;
+}
+header p{
+    color: blueviolet;
+    /* text-align: center; */
+    font-weight: bolder;
+    font-size: large;
+    height: 1rem;
+}
+main{
+    margin: 1rem 0px;
+}
+main form p label{
+    font-size: larger;
+    font-weight:700;
+    color: rgb(55, 44, 44);
+    /* font-family:Arial, Helvetica, sans-serif; */
+    display: block;
+    margin: 4px;
+}
+main form p input{
+    width: 100%;
+    height: 2rem;
+    border-radius: 4px;
+    border: 1px solid rgb(171, 169, 169);
+    font-family: sans-serif;
+    font-size:small;
+    padding-left: 6px;
+}
+main form p input:hover{
+    background-color: rgb(224, 236, 254);
+}
+#submit{
+    background-color: rgb(4, 119, 235);
+    margin: 6px 0px;
+    cursor: pointer;
+    font-family: 'Cookie', cursive;
+    font-size: large;
+    color: floralwhite;
+}
+#submit:hover{
+    background-color: rgb(49, 162, 233);
+
+}
+.Ball1{
+    position: absolute;
+    top: 60px;
+    left: 260px;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    background:linear-gradient(to top right,rgb(8, 172, 242),rgb(243, 245, 247) );
+}
+.Ball2{
+    position: absolute;
+    bottom: 30px;
+    right: 260px;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    background:linear-gradient(to top right,rgb(8, 172, 242),rgb(243, 245, 247) );
+}
+footer{
+    margin-top: 1rem;
+    font-size: large;
+    text-align: center;
+}
