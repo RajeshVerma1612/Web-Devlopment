@@ -271,3 +271,80 @@ a{
     text-align: center;
     margin: 4px 0px;
 }
+
+/* big features section 1-2-3 */
+
+.big-features-section{
+padding-top: 60px;
+}
+.big-feat-img{
+    height: 499px;
+    width: 586px;
+}
+.about-section-box{
+    display: flex;
+    align-items: flex-start;
+    /* padding-left: 20px; */
+}
+.about-section{
+    padding-left: 10px;
+    /* letter-spacing: .8px;
+    line-height: 2px; */
+}
+.about-section h2{
+    font-weight: 500;
+    padding: 0px 0px 0px 40px;
+    margin-top: 12px;
+    margin-bottom: 16px;
+}
+.about-section h4{
+    font-weight: 600;
+    padding-left:40px;
+}
+.about-section p{
+    font-weight: 300;
+    padding-left:40px;
+    margin-right: 80px;
+}
+.about-section h3{
+    margin-top: 16px;
+    font-weight: 600;
+    padding-left:40px;
+    font-size: large;
+}
+.comment{
+    font-weight:500!important;
+    font-family: "roboto";
+    letter-spacing: .1px;
+    background-image: url(images/double-col.svg);
+    padding-left:40px;
+    background-repeat: no-repeat;
+    margin-top: 16px;
+    padding-right: 86px;
+    text-align: justify;
+    font-size: large;
+    color:var(--primary-text-color);
+}
+.author{
+    display: flex;
+    margin-top: 16px;
+    padding-left:40px;
+}
+.author img{
+    width: 48px;
+    height: 48px;
+}
+.name-tile{
+    margin-top: 0px;
+}
+.name-tile h4{
+    letter-spacing: .1px;
+}
+.name-tile p{
+    font-size:0.9rem;
+}
+.name-text1{
+    margin-top: 16px;
+    padding-left:40px;
+    height: 32px;
+}
